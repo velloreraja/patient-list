@@ -126,7 +126,7 @@ function deleteRecord() {
 // logout
 function logout() {
   if (confirm("You want LOGOUT")) {
-    location.href = "./patient.html";
+    location.href = "./index.html";
   }
 }
 
