@@ -19,6 +19,6 @@ function submitForm(event) {
 
   if (userid === username && password === passwords) {
     alert("Login Succesfull");
-    return (document.location.href = "http://192.168.29.138:5500/two.html");
+    return (document.location.href = "https://velloreraja6596.github.io/patient-list/two.html");
   }
 }
