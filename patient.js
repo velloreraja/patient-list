@@ -5,8 +5,8 @@ function submitForm(event) {
   const userid = document.getElementById("userid").value;
   const password = document.getElementById("password").value;
 
-  let username = "";
-  let passwords = "";
+  let username = "admin";
+  let passwords = "admin";
   if (userid === "") {
     alert("Fill the Userid");
   } else if (password === "") {
